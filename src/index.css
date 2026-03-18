@@ -1,0 +1,27 @@
+body {
+  font-family:
+    "Inter",
+    -apple-system,
+    sans-serif;
+  background-color: #f8faf8;
+  margin: 0;
+  padding: 40px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2d5a27;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+/* This is the container in App.jsx that holds <Plants /> and <Cart /> */
+/* You must wrap your components in <div className="content"> in App.jsx */
+.content {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
